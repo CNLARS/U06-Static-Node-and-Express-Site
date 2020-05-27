@@ -1,0 +1,48 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 CNL
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | Full Stack JavaScript Developer
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            |Two years of experience as an Apple Technical Specialist paired with a year of FSJS studies provide a solid foundation and quality work as an entry level developer.  
+            br
+            br 
+            |⍟ Available to work as part of a team or independently ⍟
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li JavaScript
+          li CSS
+          li jQuery
+          li Express
+          li Code Review
+          li Diagnosing &amp; Debugging
+          li Critical Thinking
+          li Technical Literacy
+          li Solution Focused
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li Annon@noemail.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href="https://github.com/CNLARS", target="_blank") GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  
