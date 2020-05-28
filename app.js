@@ -62,3 +62,10 @@ app.use( (err, req, res, next) => {
 app.listen(localNum, () => {
     console.log(`Brought to you by LocalHost: ${localNum}`);
 });
+
+//Code Snippet from Heroku:
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);

@@ -20,7 +20,7 @@ block content
             li= technology
 
         a.button.expanded(href='', target="_blank") Live Demo
-        a.button.expanded(href=`https://github.com/CNLARS/${project.project_name}`, target="_blank") GitHub Repo
+        a.button.expanded(href=`https://github.com/CNLARS/${project.project_name}`, title=`CNLARS' ${project.project_name} Repo`, target="_blank") GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
     img.image(src=`${project.image_urls[1]}`)

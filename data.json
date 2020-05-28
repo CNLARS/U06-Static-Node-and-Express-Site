@@ -7,7 +7,7 @@
             "description": "Random Quote Generator: Every twelve seconds and on button 'click' event page auto-refreshes with a random quote from an Array of objects.",
             "technologies": ["JavaScript", "HTML", "CSS"], 
 
-            "live_link": "",
+            "live_link": "https://cnl-fsjs-web-dev.herokuapp.com/",
 
             "github_link": "https://github.com/CNLARS/U01-Random-Quotes",
             "image_urls": ["/static/images/random_quote_project_icon.jpg", "/static/images/random_quote_preview.jpg"]  
@@ -18,7 +18,7 @@
             "description": "Creating Pagination Links and Filters Student List: Display set to 10 per page.",
             "technologies": ["JavaScript", "HTML", "CSS"],
 
-            "live_link": "",
+            "live_link": "https://cnl-fsjs-web-dev.herokuapp.com/",
                
             "github_link": "https://github.com/CNLARS/U02-Pagination-and-Filtering",
             "image_urls": ["/static/images/list_pagination_and_filtering_project_icon.jpg", "/static/images/list_pagination_and_filtering_project_preview.jpg"]  
@@ -29,7 +29,7 @@
             "description": "Registration Form: Using jQuery to create a registration form that provides real time updates to the user for requested information.",
             "technologies": ["jQuery", "JavaScript", "HTML", "CSS", "Switch"], 
                 
-            "live_link": "",
+            "live_link": "https://cnl-fsjs-web-dev.herokuapp.com/",
                
             "github_link": "https://github.com/CNLARS/U03-Interactive-Form",
             "image_urls": ["/static/images/interactive_form_project_icon.jpg", "/static/images/interactive_form_preview.jpg"]
@@ -40,7 +40,7 @@
             "description": "Phrase Hunter Game: featuring on screen keyboard, OOJS with `handleInteraction()` eventListener on each key.",
             "technologies": ["Object Oriented JavaScript", "HTML", "CSS"], 
                
-            "live_link": "",
+            "live_link": "https://cnl-fsjs-web-dev.herokuapp.com/",
             
             "github_link": "https://github.com/CNLARS/U04-OOP-Game-Show-App",
             "image_urls": ["/static/images/phrase_hunter_project_icon.jpg", "/static/images/phrase_hunter_project_preview.jpg"]  
@@ -51,7 +51,7 @@
             "description": "Fetch API randomly gets data for 12 individuals to populate contact information in gallery and modal window.",
             "technologies": ["JavaScript", "HTML", "CSS"], 
                 
-            "live_link": "",
+            "live_link": "https://cnl-fsjs-web-dev.herokuapp.com/",
                 
             "github_link": "https://github.com/CNLARS/U05-Random-User-Generator-API",
             "image_urls": ["/static/images/random_user_generator_project_icon.jpg", "/static/images/api_project_preview.jpg"]
