@@ -35,9 +35,9 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: goldenrod;
+  color: palegoldenrod;
   font-style: oblique;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 2px 2px 4px black;
 }
 
 .button{
@@ -165,7 +165,7 @@ a:hover{
 }
 
 .portfolio-intro{
-    background-color: indigo;
+    background-color: black;
 }
 
 a:hover{

@@ -4,7 +4,7 @@
         {
             "id": "0",
             "project_name": "U01-Random-Quotes",
-            "description": "Random Quote Generator",
+            "description": "Random Quote Generator: Every twelve seconds and on button 'click' event page auto-refreshes with a random quote from an Array of objects.",
             "technologies": ["JavaScript", "HTML", "CSS"], 
 
             "live_link": "",
@@ -15,7 +15,7 @@
         {
             "id": "1",
             "project_name": "U02-Pagination-and-Filtering",
-            "description": "Creating Pagination Links and Filters Student List to Display",
+            "description": "Creating Pagination Links and Filters Student List: Display set to 10 per page.",
             "technologies": ["JavaScript", "HTML", "CSS"],
 
             "live_link": "",
@@ -26,8 +26,8 @@
         {
             "id": "2",
             "project_name": "U03-Interactive-Form",
-            "description": "Registration Form",
-            "technologies": ["jQuery", "JavaScript", "HTML", "CSS"], 
+            "description": "Registration Form: Using jQuery to create a registration form that provides real time updates to the user for requested information.",
+            "technologies": ["jQuery", "JavaScript", "HTML", "CSS", "Switch"], 
                 
             "live_link": "",
                
@@ -37,7 +37,7 @@
         {
             "id": "3",
             "project_name": "U04-OOP-Game-Show-App",
-            "description": "Phrase Hunter Game with on screen keyboard",
+            "description": "Phrase Hunter Game: featuring on screen keyboard, OOJS with `handleInteraction()` eventListener on each key.",
             "technologies": ["Object Oriented JavaScript", "HTML", "CSS"], 
                
             "live_link": "",
@@ -48,7 +48,7 @@
         {
             "id": "4",
             "project_name": "U05-Random-User-Generator-API",
-            "description": "Fetch API",
+            "description": "Fetch API randomly gets data for 12 individuals to populate contact information in gallery and modal window.",
             "technologies": ["JavaScript", "HTML", "CSS"], 
                 
             "live_link": "",

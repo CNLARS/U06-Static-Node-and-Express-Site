@@ -16,7 +16,7 @@ app.use("/static", express.static("public"));
 
 //A route to RENDER "Home" page:
 app.get("/", (req, res) => {
-    res.render("index");
+    res.render("index", data);
 });
 
 //A route to RENDER the "about" page:
@@ -39,8 +39,8 @@ app.get("/projects/:id", function(req, res, next){
 
     if(project){
         res.render("project", { project });
-        console.log({project})
-        console.log(project.project_name)
+        // console.log({project})
+        // console.log(project.project_name)
     } else {
         err.status = 404;
         res.render("error");
