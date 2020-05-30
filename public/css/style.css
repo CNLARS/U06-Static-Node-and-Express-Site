@@ -16,12 +16,10 @@ h1,h2,h3,h4,h5,p{
     text-transform: uppercase;
     font-weight: 600;
     color: gold;
-    text-shadow: 1px 1px 3px black;
   }
 
   h1{
     color: gold;
-    text-shadow: 1.5px 1.5px 3px black;
   }
 
   p{
@@ -37,7 +35,6 @@ h1,h2,h3,h4,h5,p{
 .text-light{
   color: palegoldenrod;
   font-style: oblique;
-  text-shadow: 2px 2px 4px black;
 }
 
 .button{
@@ -96,12 +93,14 @@ a:hover{
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
+  background-color: black;
 }
 
  .portfolio-breadcrumb a{
    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
+   color: white;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
@@ -156,7 +155,6 @@ a:hover{
   font-size: 18px;
   text-transform: uppercase;
   color: lightgoldenrodyellow;
-  text-shadow: 1px 1px 3px black;
 }
 
 .portfolio-bio{

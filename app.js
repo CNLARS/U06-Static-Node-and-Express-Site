@@ -39,12 +39,11 @@ app.get("/projects/:id", function(req, res, next){
 
     if(project){
         res.render("project", { project });
-        // console.log({project})
-        // console.log(project.project_name)
     } else {
+        const err = new Error();
         err.status = 404;
-        res.render("error");
-        const err = new Error("Yikes! There's been an error: page does not exist.");
+        err.message = `Yikes! There's been an error: "projects/${projectID}" does not yet exist.`
+        res.render("error", err);
         next(err);
     }
     
@@ -52,10 +51,12 @@ app.get("/projects/:id", function(req, res, next){
 
 //Error Message:
 app.use( (err, req, res, next) => {
-    err.status = 404;
-    err.message = new Error("😱 Zoinks!");
-    res.locals.message = err.message;
+    res.locals.error = err;
+    res.status = (err.status || 500);
+    res.message = (err.message || "🕵🏾‍♀️ Jinkies! There appears to be an error with the requested page.");
+    res.stack = new Error().stack;
     res.render("error", err);
+    throw new Error("😱 Zoinks!");
 });
 
 

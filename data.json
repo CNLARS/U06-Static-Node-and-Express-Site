@@ -10,7 +10,7 @@
             "live_link": "https://cnlars.github.io/U01-Random-Quotes/",
 
             "github_link": "https://github.com/CNLARS/U01-Random-Quotes",
-            "image_urls": ["/static/images/random_quote_project_icon.jpg", "/static/images/random_quote_preview.jpg"]  
+            "image_urls": ["/static/images/random_quote_project_icon.jpg", "/static/images/random_quote_preview.jpg", "/static/images/random_quote_preview_2.jpg"]  
         },
         {
             "id": "1",
@@ -21,7 +21,7 @@
             "live_link": "https://cnlars.github.io/U02-Pagination-and-Filtering/",
                
             "github_link": "https://github.com/CNLARS/U02-Pagination-and-Filtering",
-            "image_urls": ["/static/images/list_pagination_and_filtering_project_icon.jpg", "/static/images/list_pagination_and_filtering_project_preview.jpg"]  
+            "image_urls": ["/static/images/list_pagination_and_filtering_project_icon.jpg", "/static/images/list_pagination_and_filtering_project_preview.jpg", "/static/images/list_pagination_and_filtering_project_preview_2.jpg"]  
         },
         {
             "id": "2",
@@ -32,18 +32,18 @@
             "live_link": "https://cnlars.github.io/U03-Interactive-Form/",
                
             "github_link": "https://github.com/CNLARS/U03-Interactive-Form",
-            "image_urls": ["/static/images/interactive_form_project_icon.jpg", "/static/images/interactive_form_preview.jpg"]
+            "image_urls": ["/static/images/interactive_form_project_icon.jpg", "/static/images/interactive_form_preview.jpg", "/static/images/interactive_form_preview_2.jpg"]
         },
         {
             "id": "3",
             "project_name": "Object Oriented Game Show App",
-            "description": "Phrase Hunter Game: featuring on screen keyboard, OOJS with `handleInteraction()` eventListener on each key.",
+            "description": "Phrase Hunter Game: featuring on screen keyboard to guess a random phrase, OOJS with `handleInteraction()` eventListener on each key.",
             "technologies": ["Object Oriented JavaScript", "HTML", "CSS"], 
                
             "live_link": "https://cnlars.github.io/U04-OOP-Game-Show-App/",
             
             "github_link": "https://github.com/CNLARS/U04-OOP-Game-Show-App",
-            "image_urls": ["/static/images/phrase_hunter_project_icon.jpg", "/static/images/phrase_hunter_project_preview.jpg"]  
+            "image_urls": ["/static/images/phrase_hunter_project_icon.jpg", "/static/images/phrase_hunter_project_preview.jpg", "/static/images/phrase_hunter_project_preview_2.jpg"]  
         },
         {
             "id": "4",
@@ -54,7 +54,7 @@
             "live_link": "https://cnlars.github.io/U05-Random-User-Generator-API/",
                 
             "github_link": "https://github.com/CNLARS/U05-Random-User-Generator-API",
-            "image_urls": ["/static/images/random_user_generator_project_icon.jpg", "/static/images/api_project_preview.jpg"]
+            "image_urls": ["/static/images/random_user_generator_project_icon.jpg", "/static/images/api_project_preview.jpg", "/static/images/api_project_preview_2.jpg"]
         }
 
     ]

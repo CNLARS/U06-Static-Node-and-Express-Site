@@ -3,10 +3,10 @@
     **Updates to CSS:
 
     +Background Color: black
-    +Updated Font Color: gold, lightgoldenrodyellow, palegoldenrod
-     (featuring black text shadow and adjusted font size and style)
+    +Updated Font Colors: gold, lightgoldenrodyellow, palegoldenrod
+     (featuring adjustments to font size and style)
     +a:hover: gold 
 
-    **Running npm start will access start script to run the app
+    **Running npm start will access start script to run the app!
 
-    **Includes error handling middleware
+    **Includes error handling middleware.
