@@ -36,27 +36,26 @@ app.get("/about", (req, res) => {
 app.get("/projects/:id", function(req, res, next){
     const projectID = req.params.id;
     const project = projects.find( ({ id }) => id === projectID)
-
-    if(project){
-        res.render("project", { project });
-    } else {
+        
+    if(!project){
         const err = new Error();
         err.status = 404;
-        err.message = `Yikes! There's been an error: "projects/${projectID}" does not yet exist.`
-        res.render("error", err);
+        err.message = "😱 Zoinks!";
         next(err);
     }
-    
+
+    res.render("project", { project });
 });
 
-//Error Message:
+//Error Middleware:
 app.use( (err, req, res, next) => {
     res.locals.error = err;
-    res.status = (err.status || 500);
-    res.message = (err.message || "🕵🏾‍♀️ Jinkies! There appears to be an error with the requested page.");
-    res.stack = new Error().stack;
-    res.render("error", err);
-    throw new Error("😱 Zoinks!");
+    res.locals.status = (err.status || 500);
+    res.locals.message = (err.message ||
+         "🕵🏾‍♀️ Jinkies! There appears to be an error with the requested page: In this instance of time and space this page is a mystery.");
+    res.locals.stack = err.stack;
+    console.log(res.locals.status); //Testing123
+    res.render("error");
 });
 
 
