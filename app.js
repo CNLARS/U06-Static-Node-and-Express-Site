@@ -4,7 +4,7 @@ const app = express();
 const data = require("./data.json");
 const bodyParser = require("body-parser");
 const projects = data.projects;
-const localNum = 3000; //Not associated with Hal 3000
+const localNum = 3000;
 
 app.use(bodyParser.urlencoded( {extended: false} ) );
 
@@ -39,22 +39,28 @@ app.get("/projects/:id", function(req, res, next){
         
     if(!project){
         const err = new Error();
-        err.status = 404;
-        err.message = "😱 Zoinks!";
+        err.status = "404 👻";
+        err.message = `😱 Zoinks! "/projects/${projectID}" is a g-g-ghost!`;
         next(err);
     }
 
     res.render("project", { project });
 });
 
+app.use( (req, res, next) =>{
+    const err = new Error();
+    err.status = 404;
+    err.message = "🕵🏾‍♀️ Jinkies! There appears to be an error with the requested page: In this instance of time and space this page is a mystery.";
+    next(err);
+});
+
 //Error Middleware:
 app.use( (err, req, res, next) => {
     res.locals.error = err;
     res.locals.status = (err.status || 500);
-    res.locals.message = (err.message ||
-         "🕵🏾‍♀️ Jinkies! There appears to be an error with the requested page: In this instance of time and space this page is a mystery.");
+    res.locals.message = err.message;
     res.locals.stack = err.stack;
-    console.log(res.locals.status); //Testing123
+
     res.render("error");
 });
 
